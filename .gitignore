@@ -1,3 +1,4 @@
 datasets/**/images/**/*.jpg
 datasets/**/labels/**/*.json
 datasets/**/labels/**/*.txt
+datasets/video/**
