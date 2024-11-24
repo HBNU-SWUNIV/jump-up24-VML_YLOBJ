@@ -19,7 +19,8 @@
 - 대량의 CCTV 영상도 실시간으로 처리 가능한 경량 모델 사용
 
 ### YOLOv8 Model
-![YOLOv8 모델 아키텍처 https://github.com/ultralytics/ultralytics/issues/189](assets/model_structure.jpg)
+| ![YOLOv8 모델 아키텍처 https://github.com/ultralytics/ultralytics/issues/189](assets/model_structure.jpg) |
+| - |
 
 - Ultralytics에서 개발한 YOLOv8은 정확도와 속도를 모두 갖춘 객체 탐지 모델
 - 다양한 스케일의 특징을 탐지에 사용해서 작은 물체도 빠르게 탐지 가능
@@ -27,7 +28,8 @@
 - 학습 이미지 해상도를 다양하게 하여 최적의 정확도를 보이는 모델 선택
 
 ### Transfer Learning
-![Extending YOLOv8 COCO Model With New Classes Without Affecting Old Weights](https://y-t-g.github.io/tutorials/yolov8n-add-classes/yolov8n-adding-a-head.png)
+| ![Extending YOLOv8 COCO Model With New Classes Without Affecting Old Weights](https://y-t-g.github.io/tutorials/yolov8n-add-classes/yolov8n-adding-a-head.png) |
+| - |
 - COCO 데이터세트에 대해 우수한 성능을 보이는 pretrained 모델으로 사람을 탐지
 - 쓰레기봉투에 대한 데이터를 학습하여 쓰레기봉투를 탐지하는 레이어만 전이 학습
 - 모델 구조를 변경하여 두 모델을 병합하여 사용
@@ -60,13 +62,13 @@ docker run --detach -it --ipc=host --gpus '"device=0"' \
 ```
 
 ### Training [train.ipynb](ultralytics/test.ipynb)
-|![](assets/results.png)|
+| ![](assets/results.png) |
 | :--: |
 | 학습 지표 |
 
 ### Testing [test.ipynb](ultralytics/test.ipynb)
 | ![](assets/detect.png) | ![](assets/track.png) |
-|:--:|:--:|
+| :--: | :--: |
 | 객체 탐지 결과| 객체 이동 경로 시각화 |
 
 ### Metrics between various image sizes
