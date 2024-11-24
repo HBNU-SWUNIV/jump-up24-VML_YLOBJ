@@ -31,6 +31,33 @@
 - 쓰레기봉투에 대한 데이터를 학습하여 쓰레기봉투를 탐지하는 레이어만 전이 학습
 - 모델 구조를 변경하여 두 모델을 병합하여 사용
 
+## Run
+### Development Environment
+- Ubuntu 20.04 LTS
+- Git
+- Docker
+- NVIDIA RTX 4080 SUPER GPU
+- 64GB RAM
+
+### Installation
+```bash
+git clone https://github.com/HBNU-SWUNIV/jump-up24-VML_YLOBJ.git
+cd jump-up24-VML_YLOBJ
+```
+
+### Dataset Preparation
+AI-HUB [공원 주요시설 및 불법행위 감시 CCTV 영상 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=477) 에서 쓰레기봉투 이미지와 라벨을 다운로드하여 `datasets/raw_dataset` 디렉토리에 저장
+
+`format_convert.ipynb`를 실행하여 YOLOv8 학습을 위한 데이터셋으로 변환
+
+### Environment Setup
+```bash
+docker run --detach -it --ipc=host --gpus '"device=0"' \
+ -v ./ultralytics:/ultralytics \
+ -v ./datasets:/content/datasets \
+ ultralytics/ultralytics:latest
+```
+
 
 ## Numerical Results
 - ABCD
