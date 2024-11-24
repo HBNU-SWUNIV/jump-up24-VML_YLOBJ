@@ -19,7 +19,7 @@
 - 대량의 CCTV 영상도 실시간으로 처리 가능한 경량 모델 사용
 
 ### YOLOv8 Model
-![YOLOv8 모델 아키텍처 https://github.com/ultralytics/ultralytics/issues/189](https://private-user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI0NTk3NTEsIm5iZiI6MTczMjQ1OTQ1MSwicGF0aCI6Ii8yNzQ2NjYyNC8yMzk3Mzk3MjMtNTczOTFkMGYtMTg0OC00Mzg4LTlmMzAtODhjMmZiNzkyMzNmLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI0VDE0NDQxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmOGY2MDk3YTMxZWYxNWI4OGZhNWEzZDllZGYwMTk3YzJjMjM4ZWRjNzg5MzUzNzFmOTIyYTAyMDExODQ4NjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Xo1XsNd8QKj5mPfXio13L5C4Uuj5RG-k5Zavisj67WM)
+![YOLOv8 모델 아키텍처 https://github.com/ultralytics/ultralytics/issues/189](assets/model_structure.jpg)
 
 - Ultralytics에서 개발한 YOLOv8은 정확도와 속도를 모두 갖춘 객체 탐지 모델
 - 다양한 스케일의 특징을 탐지에 사용해서 작은 물체도 빠르게 탐지 가능
