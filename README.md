@@ -1,11 +1,11 @@
 # Jump-up
-# 국립한밭대학교 XXX학과 XXX팀
+# 국립한밭대학교 지능미디어공학과 VML-YLOBJ팀
 
 **팀 구성**
-- 2019XXXX Name
-- 2020XXXX Name
-- 2019XXXX Name
-- 2020XXXX Name
+- 30231232 김지영
+- 20221085 김기홍
+- 20221123 하현경
+- 20231113 정윤선
 
 ## Project Background
 - ABCD
