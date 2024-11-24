@@ -58,9 +58,25 @@ docker run --detach -it --ipc=host --gpus '"device=0"' \
  ultralytics/ultralytics:latest
 ```
 
+### Training [train.ipynb](ultralytics/test.ipynb)
+|![](assets/results.png)|
+| :--: |
+| 학습 지표 |
 
-## Numerical Results
-- ABCD
+### Testing [test.ipynb](ultralytics/test.ipynb)
+| ![](assets/detect.png) | ![](assets/track.png) |
+|:--:|:--:|
+| 객체 탐지 결과| 객체 이동 경로 시각화 |
+
+### Metrics between various image sizes
+
+| imgsz | mAP50-95 | P | R | Speed(ms) |
+| :--: | :--: | :--: | :--: | :--: |
+| 640 | 0.65 | 0.89 | 0.88 | **0.8** |
+| 900 | 0.71 | 0.91 | 0.90 | 1.1 |
+| 1280 | 0.74 | 0.90 | **0.92** | 2.1 |
+| 1600 | 0.75 | **0.92** | **0.92** | 3.4 |
+| 1920 | **0.77** | **0.92** | **0.92** | 4.2 |
 
 ## Conclusion
 - ABCD
